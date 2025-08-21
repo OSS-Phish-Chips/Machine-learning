@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+tqdm
+joblib
+requests
+python-whois
+beautifulsoup4
+googlesearch-python
