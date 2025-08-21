@@ -1,7 +1,7 @@
 # Machine-learning
 
 ## 악성 URL 탐지 모델 (Phishing URL Detection Model)
-이 프로젝트는 **머신러닝(랜덤 포레스트)**을 활용하여 악성 피싱(Phishing) URL을 탐지하는 모델을 개발하고, 이를 FastAPI 기반의 API로 구현합니다. URL의 다양한 특징을 추출하여 모델을 학습하고, 학습된 모델을 통해 새로운 URL의 악성 여부를 예측합니다.
+이 프로젝트는 머신러닝(랜덤 포레스트)을 활용하여 악성 피싱(Phishing) URL을 탐지하는 모델을 개발하고, 이를 FastAPI 기반의 API로 구현합니다. URL의 다양한 특징을 추출하여 모델을 학습하고, 학습된 모델을 통해 새로운 URL의 악성 여부를 예측합니다.
 
 
 ## 프로젝트 구조
@@ -12,14 +12,14 @@
 
 ## 실행 방법
 **1. 환경 설정**<br>
-필요한 라이브러리를 설치합니다.
+필요한 라이브러리를 설치합니다.<br>
 pip install -r requirements.txt
 
 **2. 모델 훈련 및 저장**<br>
 phishing_detection_model.ipynb 파일을 순서대로 실행하여 모델을 훈련시키고 phishing_model.pkl 파일을 생성합니다. 이 과정에서 URL 데이터셋을 다운로드하고 특징을 추출하여 모델을 학습하게 됩니다.
 
 **3. API 서버 실행**<br>
-다음 명령어를 사용하여 API 서버를 시작합니다.
+다음 명령어를 사용하여 API 서버를 시작합니다.<br>
 uvicorn predict:app --reload
 
 **4. API 사용 예시**<br>
