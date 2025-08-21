@@ -24,7 +24,7 @@ uvicorn predict:app --reload
 
 **4. API 사용 예시**<br>
 **단일 URL 예측**<br>
-predict.py에 정의된 predict 엔드포인트를 사용하여 단일 URL에 대한 예측을 수행할 수 있습니다.
+predict.py에 정의된 predict 엔드포인트를 사용하여 단일 URL에 대한 예측을 수행할 수 있습니다.<br>
 **배치 URL 예측**<br>
 predict_batch 엔드포인트를 사용하면 여러 URL을 한 번에 예측할 수 있습니다.
 
