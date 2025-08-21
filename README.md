@@ -34,4 +34,4 @@ predict_batch 엔드포인트를 사용하면 여러 URL을 한 번에 예측할
 이 프로젝트에서 사용된 데이터셋은 Phishing URL Dataset([https://data.mendeley.com/datasets/vfszbj9b36/1](https://data.mendeley.com/datasets/vfszbj9b36/1))에서 가져왔으며, CC BY 4.0 라이선스를 따릅니다.
 
 **코드 참고 자료**<br>
-이 프로젝트의 `phishing_detection_model.ipynb`와 `patterns.py`는 Malicious-Web-Content-Detection-Using-Machine-Learning GitHub 리포지토리([https://github.com/philomathic-guy/Malicious-Web-Content-Detection-Using-Machine-Learning.git](https://github.com/philomathic-guy/Malicious-Web-Content-Detection-Using-Machine-Learning.git))의 코드를 참고하여 작성되었습니다. 해당 코드는 MIT 라이선스를 따릅니다. 원작자에게 감사를 표합니다.
+이 프로젝트의 `phishing_detection_model.ipynb`와 `patterns.py`는 Malicious-Web-Content-Detection-Using-Machine-Learning GitHub 리포지토리([https://github.com/philomathic-guy/Malicious-Web-Content-Detection-Using-Machine-Learning.git](https://github.com/philomathic-guy/Malicious-Web-Content-Detection-Using-Machine-Learning.git))의 코드 `features_extraction.py`와 `pattern.py`를 참고하여 작성되었습니다. 해당 코드는 MIT 라이선스를 따릅니다. 원작자에게 감사를 표합니다.
