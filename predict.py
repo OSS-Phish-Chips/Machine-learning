@@ -709,7 +709,7 @@ def extract_features_from_csv(csv_path, url_column, label_column=None):
 
 
 # 1) 모델 로드
-MODEL_PATH = "random_forest_model_5000.pkl"
+MODEL_PATH = "phishing_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 # 2) 완성된 extract_features 함수
@@ -805,3 +805,4 @@ def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
