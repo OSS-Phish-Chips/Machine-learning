@@ -5,10 +5,10 @@
 
 
 ## 프로젝트 구조
-- phishing_detection_model.ipynb: URL 특징 추출, 전처리, 랜덤 포레스트 모델 훈련 및 성능 평가를 위한 Jupyter Notebook 파일.
+- phishing_detection_model.ipynb: URL 특징 추출, 전처리, 랜덤 포레스트 모델 훈련 및 성능 평가를 위한 Jupyter Notebook 파일
 - phishing_model.pkl: 훈련된 랜덤 포레스트 모델
 - patterns.py: URL 특징 추출에 사용
-- predict.py: FastAPI를 사용하여 훈련된 모델(phishing_model.pkl)을 로드하고, URL 예측을 위한 API 엔드포인트를 제공하는 스크립트.
+- predict.py: FastAPI를 사용하여 훈련된 모델(phishing_model.pkl)을 로드하고, URL 예측을 위한 API 엔드포인트를 제공하는 스크립트
 
 ## 실행 방법
 **1. 환경 설정**
